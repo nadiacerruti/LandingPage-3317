@@ -3,7 +3,7 @@
 
 :root {
   /* bg colors */
-  --background: #333237;
+  --background: #19181a;
   --bg-azul-10: #e9eeff;
   --bg-white: #fff;
   --bg-electric: #f0fbff;
@@ -83,7 +83,7 @@ header img {
   flex-direction: column;
   padding: 20px;
   justify-content: center;
-  gap: 30px;
+  gap: 40px;
 }
 
 .hero-info h1 {
@@ -115,7 +115,7 @@ header img {
 .info-btn {
   display: flex;
   justify-content: flex-start;
-  gap: 100px;
+  gap: 20px;
 }
 
 .btn-1 {
@@ -130,7 +130,7 @@ header img {
 
 .btn-2 {
   background-color: transparent;
-  border: solid 2px black;
+  border: solid 1px rgba(235, 227, 227, 0.993);
   color: var(--bg-electric);
   border-radius: 12px;
   text-decoration: none;
